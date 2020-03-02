@@ -3,6 +3,4 @@ services:
   app:
     build: .
     container_name: discordbot
-    volumes:
-     - ./app:/app
     tty: true
